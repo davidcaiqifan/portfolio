@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm David, a year 3 undergraduate student at the National University of Singapore. Welcome to my portfolio webpage where I share my experiences and projects. If you would like to contact me, you can reach me at my email ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,76 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Humble Trader",
+        "startDate": "2021",
+        "description": "Humble Trader was my attempt to do some simple signal generation on the Cryptocurrency Market. By utilizing the Binance JAVA API, I was able to generate some basic signals such as simple moving average and so on.",
+        "images": [
+          "images/portfolio/crypto/bitcoin.jpg"
+        ],
+        "url": "https://github.com/davidcaiqifan/HumbleTrader",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "JAVA"
+          },
+          {
+            "class": "devicon-apache-plain",
+            "name": "Apache Commons"
+          },
+          {
+            "class": "devicon-intellij-plain",
+            "name": "Intellij"
+          }
+        ]
+      },
+      {
+        "title": "Culture Finder",
+        "startDate": "2021",
+        "description": "Culture Finder was a project entry for NUS Hack&Roll 2021.A group of friends and myself created a telegram bot that performs searches for anime and also recommends titles based on genres user is interested in. Use http://t.me/Cu1tureBot to check it out on telegram!",
+        "images": [
+          "images/portfolio/photography/6Q9Nwh.jpg",
+          "images/portfolio/photography/Telegram_(software)-Logo.wine.png"
+        ],
+        "url": "https://github.com/davidcaiqifan/culture_finder",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-heroku-plain",
+            "name": "Heroku"
+          }
+        ]
+      },
+      {
+        "title": "CAP 5.0 Buddy",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "One of the first apps I was working on during my university studies. Cap 5.0 Buddy is a productivity app that helps to consolidate university activities and academics. It has received good peer and course reviews.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/capbuddy/cap.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/AY2021S1-CS2103T-F12-3/tp",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-java-plain",
+            "name": "Java"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
+        "company": "Spark Systems",
         "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "years": "05.2021 - 08.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Python",
+          "PosgreSQL"
         ]
       }
     ]
