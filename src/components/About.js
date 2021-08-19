@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import angularIcon from "@iconify/icons-logos/java";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import vueIcon from "@iconify/icons-logos/aws";
 
 class About extends Component {
   render() {
@@ -81,6 +81,7 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <a href="mailto:davidcaiqifan@gmail.com">davidcaiqifan@gmail.com</a>
                   </div>
                 </div>
               </div>
